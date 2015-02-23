@@ -28,6 +28,7 @@
     "vogels": "^2.0.0-rc8"
   },
   "devDependencies": {
+    "chai": "^2.0.0",
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.9.2",
     "gulp-mocha": "^2.0.0",

@@ -1,0 +1,40 @@
+{
+  "name": "dynamodb-conn",
+  "version": "0.0.1",
+  "description": "DyamoDB conection sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4yopping/dynamodb-conn.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "nodejs",
+    "4yopping"
+  ],
+  "author": "Quantium andres@quantium.com.mx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4yopping/dynamodb-conn/issues"
+  },
+  "homepage": "https://github.com/4yopping/dynamodb-conn",
+  "dependencies": {
+    "aws-sdk": "^2.1.13",
+    "joi": "^5.1.0",
+    "vogels": "^2.0.0-rc8"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plato": "^1.0.2",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.1.0",
+    "run-sequence": "^1.0.2",
+    "supertest": "^0.15.0"
+  }
+}

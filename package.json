@@ -24,7 +24,7 @@
   "homepage": "https://github.com/4yopping/dynamodb-conn",
   "dependencies": {
     "aws-sdk": "^2.1.13",
-    "joi": "^5.1.0",
+    "joi": "^8.1.0",
     "vogels": "^2.0.0-rc8"
   },
   "devDependencies": {

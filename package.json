@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,9 @@
   "homepage": "https://github.com/4yopping/dynamodb-conn",
   "dependencies": {
     "aws-sdk": "^2.1.13",
-    "joi": "^5.1.0",
-    "vogels": "^2.0.0-rc8"
+    "joi": "^8.1.0",
+    "vogels": "^2.0.0-rc8",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "chai": "^2.0.0",
@@ -38,5 +41,6 @@
     "random-words": "0.0.1",
     "run-sequence": "^1.0.2",
     "supertest": "^0.15.0"
-  }
+  },
+  "snyk": true
 }

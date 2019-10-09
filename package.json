@@ -28,7 +28,7 @@
     "aws-sdk": "^2.1.13",
     "joi": "^5.1.0",
     "vogels": "^2.0.0-rc8",
-    "snyk": "^1.88.1"
+    "snyk": "^1.234.0"
   },
   "devDependencies": {
     "chai": "^2.0.0",
